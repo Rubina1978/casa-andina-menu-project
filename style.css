@@ -1,0 +1,213 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(flat-design-boho-style-background_23-2149063128.avif);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    -webkit-transform: scale(0.67);
+    -moz-transform: scale(0.67);
+    transform: scale(0.67);
+    
+}
+
+h1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 25px;
+  
+   
+}
+h1, h2, p {
+    text-align: center;
+    font-family: sans-serif;
+}
+.taste {
+    font-style: italic;
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 2px;
+    
+}
+.start {
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.mains {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.desserts {
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+section {
+    text-align: center;
+   
+}
+.menu { 
+    width: 80%;
+ 
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+    
+
+}
+main {
+    margin-right: 60px;
+    margin-left: 60px;
+    
+    
+    
+
+   
+}
+
+.small p {
+    display: inline-block;
+    line-height: 2px;
+  
+   
+    
+}
+
+.item {
+    text-align: left;
+    width: 75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.price {
+    text-align: right;
+    width: 25%;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ .break {
+   background-color: rgb(155, 96, 48);
+   border: 1px solid rgb(155, 96, 48);
+   height: 1px;
+   margin-top: 20px;
+ }
+.desc {
+    float: left;
+    padding-bottom: 5px;
+    font-size: small;
+    font-weight: 400;
+    margin-top: 3px;
+}
+    
+.break-bottom {
+    background-color: rgb(155, 96, 48);
+    border: 1px solid rgb(155, 96, 48);
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   }
+
+footer {
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+   color: rgb(91, 104, 65);
+    transition: 0.5s ease-out;
+}
+a {
+    color: rgb(119, 56, 4);
+   
+}
+a:active {
+    color: rgb(16, 81, 16);
+}
+a:visited {
+    color: darkcyan;
+}   
+
+@media only screen  and (max-width: 600px) {
+    
+    main {
+        margin: 0 auto;
+        font-size: 10px;
+        background-size: cover;
+        padding-top: 15px;
+        
+    }
+    .desc {
+        display: none !important;
+      
+    }
+    h1 {
+        padding-top: 5px;
+    }
+    .menu {
+       width: 100%;
+       margin: 0 auto;
+      
+      
+    }
+   
+  .small {
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+}
+@media screen and (min-width: 728px){
+main {
+        font-size: 10px;
+        background-size: cover;
+        margin-top: 80px;
+        
+             
+}
+.menu {
+    margin: 0 auto;
+   width: 90%;
+   
+  
+   
+}
+
+.desc {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 3px;
+
+    
+    
+}
+.item {
+    font-size: 15px;
+}
+.price {
+    font-size: 15px;
+}
+}
